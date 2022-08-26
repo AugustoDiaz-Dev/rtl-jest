@@ -1,1 +1,1 @@
-# rtl-jest
+# React testing library & Jest
