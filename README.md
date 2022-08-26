@@ -1,5 +1,7 @@
 # React testing library & Jest
 
+ADDITIONAL: https://github.com/goldbergyoni/javascript-testing-best-practices
+
 npx create-react-app . --template typescript
 
 npm test
