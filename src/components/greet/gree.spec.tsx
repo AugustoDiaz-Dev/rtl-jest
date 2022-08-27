@@ -5,14 +5,14 @@ import { Greet } from './greet'
 
 // Test Driven Development
 describe('Greet', () => {
-    test('renders correctly', () => {
+    it('renders correctly', () => {
         render(<Greet />)
         const textElement = screen.getByText('Hello');
         expect(textElement).toBeInTheDocument()
     })
 
     describe('Nested', () => {
-        test('renders with a name', () => {
+        it('renders with a name', () => {
             render(<Greet name='Augusto' />)
             const textElement = screen.getByText('Hello Augusto')
             expect(textElement).toBeInTheDocument()
